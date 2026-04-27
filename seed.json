@@ -1,0 +1,149 @@
+[
+  {
+    "title": "Masumiyet Müzesi",
+    "author": "Orhan Pamuk",
+    "price": 245.5,
+    "coverImage": "https://i.dr.com.tr/cache/600x600-0/originals/0000000550626-1.jpg",
+    "stock": 50
+  },
+  {
+    "title": "Saatleri Ayarlama Enstitüsü",
+    "author": "Ahmet Hamdi Tanpınar",
+    "price": 180,
+    "coverImage": "https://i.dr.com.tr/cache/600x600-0/originals/0000000027135-1.jpg",
+    "stock": 40
+  },
+  {
+    "title": "Kürk Mantolu Madonna",
+    "author": "Sabahattin Ali",
+    "price": 120,
+    "coverImage": "https://i.dr.com.tr/cache/600x600-0/originals/0000000058245-1.jpg",
+    "stock": 120
+  },
+  {
+    "title": "Tutunamayanlar",
+    "author": "Oğuz Atay",
+    "price": 350,
+    "coverImage": "https://i.dr.com.tr/cache/600x600-0/originals/0000000061424-1.jpg",
+    "stock": 25
+  },
+  {
+    "title": "İnce Memed 3",
+    "author": "Yaşar Kemal",
+    "price": 195,
+    "coverImage": "https://m.media-amazon.com/images/I/61wGgUxp2nL.jpg",
+    "stock": 60
+  },
+  {
+    "title": "İçimizdeki Şeytan",
+    "author": "Sabahattin Ali",
+    "price": 110,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdf1vBW-sJxVGzlAFKzqY3G5eNmI_R55nzZw&s",
+    "stock": 85
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "price": 140,
+    "coverImage": "https://i.dr.com.tr/cache/600x600-0/originals/0000000064038-1.jpg",
+    "stock": 200
+  },
+  {
+    "title": "Suç ve Ceza",
+    "author": "Fyodor Dostoyevski",
+    "price": 220,
+    "coverImage": "https://www.istanbook.com.tr/shop/sr/57/myassets/products/298/klasik-suc-ve-ceza.jpg?revision=1716464480",
+    "stock": 150
+  },
+  {
+    "title": "Dönüşüm",
+    "author": "Franz Kafka",
+    "price": 75,
+    "coverImage": "https://i.dr.com.tr/cache/600x600-0/originals/0000000561966-1.jpg",
+    "stock": 300
+  },
+  {
+    "title": "Küçük Prens",
+    "author": "Antoine de Saint-Exupéry",
+    "price": 85,
+    "coverImage": "https://upload.wikimedia.org/wikipedia/tr/f/f5/Kucukprens.jpg",
+    "stock": 500
+  },
+  {
+    "title": "Simyacı",
+    "author": "Paulo Coelho",
+    "price": 165,
+    "coverImage": "https://img.kitapyurdu.com/v1/getImage/fn:11819904/wi:800/wh:71b90a47a",
+    "stock": 180
+  },
+  {
+    "title": "Cesur Yeni Dünya",
+    "author": "Aldous Huxley",
+    "price": 155,
+    "coverImage": "https://i.dr.com.tr/cache/600x600-0/originals/0000000066424-1.jpg",
+    "stock": 90
+  },
+  {
+    "title": "Yabancı",
+    "author": "Albert Camus",
+    "price": 95,
+    "coverImage": "https://i.dr.com.tr/cache/600x600-0/originals/0000000064464-1.jpg",
+    "stock": 110
+  },
+  {
+    "title": "Aylak Adam",
+    "author": "Yusuf Atılgan",
+    "price": 105,
+    "coverImage": "https://i.dr.com.tr/cache/600x600-0/originals/0001719411001-1.jpg",
+    "stock": 70
+  },
+  {
+    "title": "Semerkant",
+    "author": "Amin Maalouf",
+    "price": 185,
+    "coverImage": "https://img.kitapyurdu.com/v1/getImage/fn:1135132/wh:59fb81e0c/miw:200/mih:200",
+    "stock": 130
+  },
+  {
+    "title": "Sefiller",
+    "author": "Victor Hugo",
+    "price": 350,
+    "coverImage": "https://oopbook.com/wp-content/uploads/2023/08/Sefil.webp",
+    "stock": 50
+  },
+  {
+    "title": "Bülbülü Öldürmek",
+    "author": "Harper Lee",
+    "price": 175,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIdPFFvE2JB8Sklgac2XPRfavV4L1BqYoJ8g&s",
+    "stock": 140
+  },
+  {
+    "title": "Hayvan Çiftliği",
+    "author": "George Orwell",
+    "price": 80,
+    "coverImage": "https://i.dr.com.tr/cache/600x600-0/originals/0000000105409-1.jpg",
+    "stock": 400
+  },
+  {
+    "title": "Fareler ve İnsanlar",
+    "author": "John Steinbeck",
+    "price": 90,
+    "coverImage": "https://i.dr.com.tr/cache/600x600-0/originals/0000000411500-1.jpg",
+    "stock": 250
+  },
+  {
+    "title": "Dokuzuncu Hariciye Koğuşu",
+    "author": "Peyami Safa",
+    "price": 115,
+    "coverImage": "https://img.kitapyurdu.com/v1/getImage/fn:11644531/wi:800/wh:30d47751a",
+    "stock": 100
+  },
+  {
+    "title": "Çavdar Tarlasında Çocuklar",
+    "author": "J.D. Salinger",
+    "price": 150,
+    "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiaUPfq3HNJCHgEU_OA_9A7Py5uHh3iwxG4A&s",
+    "stock": 115
+  }
+]
