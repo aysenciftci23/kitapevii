@@ -16,13 +16,14 @@ exports.OrdersController = void 0;
 const common_1 = require("@nestjs/common");
 const orders_service_1 = require("./orders.service");
 const jwt_auth_guard_1 = require("../auth/jwt-auth.guard");
+const create_order_dto_1 = require("../dto/create-order.dto");
 let OrdersController = class OrdersController {
     ordersService;
     constructor(ordersService) {
         this.ordersService = ordersService;
     }
-    async create(req, body) {
-        return this.ordersService.create(req.user.userId, body.items);
+    async create(req, createOrderDto) {
+        return this.ordersService.create(req.user.userId, createOrderDto.items);
     }
     async findAll() {
         return this.ordersService.findAll();
@@ -35,7 +36,7 @@ __decorate([
     __param(0, (0, common_1.Req)()),
     __param(1, (0, common_1.Body)()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Object, Object]),
+    __metadata("design:paramtypes", [Object, create_order_dto_1.CreateOrderDto]),
     __metadata("design:returntype", Promise)
 ], OrdersController.prototype, "create", null);
 __decorate([

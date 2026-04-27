@@ -2,6 +2,8 @@ import { Injectable, UnauthorizedException, ConflictException } from '@nestjs/co
 import { JwtService } from '@nestjs/jwt';
 import { UsersService } from '../users/users.service';
 import * as bcrypt from 'bcryptjs';
+import { RegisterUserDto } from '../dto/register-user.dto';
+import { LoginUserDto } from '../dto/login-user.dto';
 
 @Injectable()
 export class AuthService {
@@ -10,7 +12,7 @@ export class AuthService {
     private jwtService: JwtService,
   ) {}
 
-  async register(userData: any) {
+  async register(userData: RegisterUserDto) {
     const existingUser = await this.usersService.findOneByEmail(userData.email);
     if (existingUser) {
       throw new ConflictException('Bu email adresi zaten kullanımda.');
@@ -26,7 +28,7 @@ export class AuthService {
     return result;
   }
 
-  async login(loginData: any) {
+  async login(loginData: LoginUserDto) {
     const user = await this.usersService.findOneByEmail(loginData.email);
     if (!user) {
       throw new UnauthorizedException('Geçersiz email veya şifre.');

@@ -4,6 +4,7 @@ import { Repository, DataSource } from 'typeorm';
 import { Order } from './entities/order.entity';
 import { OrderItem } from './entities/order-item.entity';
 import { Book } from '../books/entities/book.entity';
+import { OrderItemDto } from '../dto/create-order.dto';
 
 @Injectable()
 export class OrdersService {
@@ -17,7 +18,7 @@ export class OrdersService {
     private dataSource: DataSource,
   ) {}
 
-  async create(userId: number, items: { bookId: number; quantity: number }[]) {
+  async create(userId: number, items: OrderItemDto[]) {
     const queryRunner = this.dataSource.createQueryRunner();
     await queryRunner.connect();
     await queryRunner.startTransaction();

@@ -1,6 +1,16 @@
 import { Controller, Post, Get, Body, UseGuards, Req } from '@nestjs/common';
+import { Request } from 'express';
 import { OrdersService } from './orders.service';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
+import { CreateOrderDto } from '../dto/create-order.dto';
+
+interface RequestWithUser extends Request {
+  user: {
+    userId: number;
+    email: string;
+    role: string;
+  };
+}
 
 @Controller('orders')
 export class OrdersController {
@@ -8,8 +18,8 @@ export class OrdersController {
 
   @UseGuards(JwtAuthGuard)
   @Post()
-  async create(@Req() req: any, @Body() body: { items: { bookId: number; quantity: number }[] }) {
-    return this.ordersService.create(req.user.userId, body.items);
+  async create(@Req() req: RequestWithUser, @Body() createOrderDto: CreateOrderDto) {
+    return this.ordersService.create(req.user.userId, createOrderDto.items);
   }
 
   @UseGuards(JwtAuthGuard)
